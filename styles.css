@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.header {
+    background-color: #ff7f50;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.app-title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.slogan {
+    font-size: 1.2rem;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.text-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+/* Adiciona estilo para a imagem pequena acima do título */
+.small-icon {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.text-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn-download {
+    background-color: #ff7f50;
+    color: #fff;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.image-content {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-image {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.features-section {
+    background-color: #f4f4f9;
+    padding: 60px 20px;
+}
+
+.features-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.2rem;
+}
+
+.feature-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.tab {
+    padding: 15px 30px;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+}
+
+.tab-content {
+    display: none; /* Todos os conteúdos ficam escondidos por padrão */
+}
+
+/* Mantemos a classe 'active' apenas para a aba, não mais para o conteúdo */
+.tab.active {
+    border-bottom: 3px solid #ff7f50;
+    font-weight: bold;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Ajustes gerais */
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 32px; /* Reduzido o gap entre as imagens */
+}
+
+.image-gallery img {
+    width: 180px;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+/* Sobre o sistema */
+.system-info p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.system-info span {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+/* Avaliações */
+.review-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rating {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.rating span {
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer p {
+    margin-bottom: 20px;
+}
