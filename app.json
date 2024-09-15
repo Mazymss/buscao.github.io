@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Buscão",
+    "slug": "buscao",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.jpg",
+    "userInterfaceStyle": "light",
+    "scheme": "buscao",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.mazymss.buscao",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "config":{
+        "googleMaps":{
+          "apiKey": "AIzaSyBFbUmvXY1WlAQva3O70IvYP0wjY_t-iTg"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "dbb73a2f-54ba-4f73-8296-7ddd6943f642"
+      }
+    },
+    "owner": "mazymss"
+  }
+}
